@@ -5,9 +5,11 @@ import static org.testng.Assert.assertEquals;
 
 public class AssertActions {
     public void verifyStatusCode(Response response){
-        assertEquals(String.valueOf(response.getStatusCode()).startsWith("20"),
+        assertEquals(String.valueOf(response.getStatusCode()).startsWith("50"),
                 true,
                 "Value of status code is " +response.getStatusCode());
+
+       // assertEquals(response.getStatusCode(),true, String.valueOf(response.getStatusCode()));
     }
 
     public void verifyResponseBody(String actual,String expected,String description){

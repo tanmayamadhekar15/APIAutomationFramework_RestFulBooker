@@ -9,5 +9,8 @@
                 <include name="qa"/>
             </run>
         </groups>
+        <classes>
+            <class name="com.automationtestingrestassured.CRUD.TC_CreateBooking"></class>
+        </classes>
     </test>
 </suite>
