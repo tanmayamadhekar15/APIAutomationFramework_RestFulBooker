@@ -10,7 +10,7 @@
             </run>
         </groups>
         <classes>
-            <class name="com.automationtestingrestassured.CRUD.TC_CreateBooking"></class>
+            <class name="com.automationtestingrestassured.CRUD.TC_CreateBookingUsingFilloFile"></class>
         </classes>
     </test>
 </suite>

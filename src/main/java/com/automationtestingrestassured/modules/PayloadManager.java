@@ -27,7 +27,7 @@ public class PayloadManager {
         bookingdates.setCheckout("2024-02-10");
         booking.setBookingdates(bookingdates);
         booking.setAdditionalneeds("Breakfast");
-       String jackson_payload=objectMapper.writerWithDefaultPrettyPrinter().writeValueAsString(booking);
+        String jackson_payload=objectMapper.writerWithDefaultPrettyPrinter().writeValueAsString(booking);
         return jackson_payload;
     }
 

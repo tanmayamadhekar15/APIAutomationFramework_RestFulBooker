@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="D:/April2024/Automation_Projects/APIAutomationFramework/src/test/java/com/automationtestingrestassured/misc/DemoTest.java"
+           tests="4"
+           failures="0"
+           errors="0"
+           skipped="0"
+           time="9.232">
+    <properties></properties>
+
+
+
+            <testcase
+                name="test_deleteBooking"
+                time="1.138"
+                classname="com.automationtestingrestassured.CRUD.TC02_IntegrationUsingPropertyFile">
+            </testcase>
+            <testcase
+                name="test_createBooking"
+                time="5.708"
+                classname="com.automationtestingrestassured.CRUD.TC02_IntegrationUsingPropertyFile">
+            </testcase>
+            <testcase
+                name="test_getBooking"
+                time="1.220"
+                classname="com.automationtestingrestassured.CRUD.TC02_IntegrationUsingPropertyFile">
+            </testcase>
+            <testcase
+                name="test_updateBooking"
+                time="1.166"
+                classname="com.automationtestingrestassured.CRUD.TC02_IntegrationUsingPropertyFile">
+            </testcase>
+</testsuite>

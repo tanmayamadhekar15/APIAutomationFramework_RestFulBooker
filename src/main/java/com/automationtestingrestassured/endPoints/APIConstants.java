@@ -1,6 +1,8 @@
 package com.automationtestingrestassured.endPoints;
 
+import com.automationtestingrestassured.utils.FillowUtil;
 import com.automationtestingrestassured.utils.TestDataPropertyReader;
+import com.automationtestingrestassured.utils.YamlReader;
 
 import java.io.IOException;
 
@@ -21,7 +23,11 @@ public class APIConstants {
             throw new RuntimeException(e);
         }
     }
+    public static String BASE=FillowUtil.fetchDatafromExcel("Sheet1","base","Value");
+    public static String CREATE=FillowUtil.fetchDatafromExcel("Sheet1","create","value");
 
+
+    public static String BASEURL_FromYAML= YamlReader.yamlFileData("url");
     public static String AUTH_URL="/auth";
 
     public static String CREATE_BOOKING="/booking";

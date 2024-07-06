@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="All Test Suite">
+    <test verbose="2" preserve-order="true"
+          name="D:/April2024/Automation_Projects/APIAutomationFramework/src/test/java/com/automationtestingrestassured/misc/DemoTest.java">
+        <classes>
+            <class name="com.automationtestingrestassured.CRUD.TC01_Integration">
+
+            </class>
+        </classes>
+    </test>
+</suite>

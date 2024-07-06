@@ -1,3 +1,11 @@
-QA:
-username:admin
-password:password123
+url: https://restful-booker.herokuapp.com
+student:
+  - name: Tanny
+    sname: S
+  - name: A
+
+fruits:
+   - banana
+   - apple
+   - oranges
+

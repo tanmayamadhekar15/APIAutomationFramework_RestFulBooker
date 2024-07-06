@@ -27,14 +27,11 @@ public class BaseTest {
 
     @BeforeClass(alwaysRun = true)
     public void setConfig() {
-        pm = new PayloadManager();
-        payloadGSON = new PayloadManagerUsingGSON();
-        actions = new AssertActions();
-        rs.baseUri(APIConstants.BASE_URL_usingPropertyFile).log().all();
+        this.pm = new PayloadManager();
+        this.payloadGSON = new PayloadManagerUsingGSON();
+        this.actions = new AssertActions();
+//        rs.baseUri(APIConstants.BASE_URL_usingPropertyFile).log().all();
         rs.baseUri(APIConstants.BASE_URL).log().all();
-        //rs.port(8081);
-        //System.out.println(APIConstants.BASE_URL);
-
 /*
         requestSpecification=new RequestSpecBuilder().setBaseUri(APIConstants.BASE_URL)
                 .addHeader("Content-type","application/json")
